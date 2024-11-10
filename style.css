@@ -1,0 +1,429 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+#navbar {
+    position: fixed;
+    width: 100vw;
+
+    #navbar1 {
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        #box1 {
+            height: 30%;
+            width: 40%;
+            padding-left: 3%;
+            align-content: center;
+            justify-content: center;
+        }
+
+        h3 {
+            height: 50%;
+            width: 20%;
+            align-content: center;
+            text-align: center;
+            justify-content: center;
+            font-size: 100%;
+        }
+
+        #icons {
+            height: 40%;
+            width: 40%;
+            padding-right: 3%;
+            align-content: center;
+            text-align: end;
+            justify-content: center;
+
+            .btns {
+                margin: 15px;
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+
+    #navbar2 {
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .navbtn {
+            height: 50%;
+            align-content: center;
+
+        }
+    }
+}
+
+#cart {
+    background-color: aliceblue;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 75%;
+    right: 1%;
+}
+
+#image {
+    padding: 0%;
+    background-image: url("picture2.jpg");
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    transition: transform 0.5s ease-in-out; 
+    
+    #box2 {
+        height: 0vh;
+        width: 30vw;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+
+        h4 {
+
+            font-weight: bold;
+            color: white;
+            font-size: 30px;
+        }
+    }
+
+#image:hover {
+    transform: scale(1.05); 
+}
+
+}
+
+#next {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #btn2 {
+        right: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    #btn1 {
+        left: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        text-decoration: underline;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+}
+
+.class1 {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    #picture3 {
+        position: block;
+        height: 85%;
+        width: 20%;
+        background-image: url("picture3.jpg");
+        background-size: cover;
+
+        #cart3 {
+            background-color: aliceblue;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border-width: 2px;
+            border-color: solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 75%;
+            right: 1%;
+        }
+    }
+
+    #picture4 {
+        position: block;
+        height: 85%;
+        width: 20%;
+        background-image: url("picture4.jpg");
+        background-size: cover;
+
+        #cart4 {
+            background-color: aliceblue;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border-width: 2px;
+            border-color: solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 75%;
+            right: 1%;
+        }
+    }
+
+    #picture5 {
+        position: block;
+        height: 85%;
+        width: 20%;
+        background-image: url("picture5.jpg");
+        background-size: cover;
+
+        #cart5 {
+            background-color: aliceblue;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border-width: 2px;
+            border-color: solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 75%;
+            right: 1%;
+        }
+    }
+
+    #picture6 {
+        position: block;
+        height: 50%;
+        width: 20%;
+        background-image: url("picture6.jpg");
+        background-size: contain;
+
+        #cart6 {
+            background-color: aliceblue;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border-width: 2px;
+            border-color: solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 75%;
+            right: 1%;
+        }
+    }
+}
+
+.class2 {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+}
+
+.class3 {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    #picture7 {
+        position: block;
+        height: 100%;
+        width: 33.33%;
+        background-image: url("picture8.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        h4 {
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        #button {
+            background-color: white;
+            color: black;
+        }
+    }
+
+    #picture8 {
+        position: block;
+        height: 100%;
+        width: 33.33%;
+        background-image: url("picture7.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        h4 {
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        #button {
+            background-color: white;
+            color: black;
+        }
+    }
+
+    #picture9 {
+        position: block;
+        height: 100%;
+        width: 33.33%;
+        background-image: url("picture9.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        h4 {
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        #button {
+            background-color: white;
+            color: black;
+        }
+    }
+}
+
+#next2 {
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: block;
+
+    #pic {
+        height: 75%;
+        width: 40%;
+        padding: 20px;
+        background-image: url("picture10.jpg");
+        background-size: cover;
+    }
+
+    #text {
+        height: 50%;
+        width: 30%;
+        bottom: 30%;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+}
+
+#next3 {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #btn2 {
+        right: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+    }
+
+    #btn1 {
+        left: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+}
+
+#next4 {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#next5 {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    #1 {
+        position: block;
+        height: 450px;
+        width: 50%;
+        background-image: url("picture11.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #2 {
+        position: block;
+        height: 450px;
+        width: 50%;
+        background-image: url("picture12.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        #cart7 {
+            background-color: aliceblue;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border-width: 2px;
+            border-color: solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 75%;
+            right: 1%;
+        }
+
+    }
+}
